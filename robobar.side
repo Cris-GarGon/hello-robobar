@@ -1,0 +1,335 @@
+{
+  "id": "dbda86c1-4e26-4e77-a74c-c7bd0de71b26",
+  "version": "2.0",
+  "name": "robobar",
+  "url": "http://localhost:3000/#!/",
+  "tests": [{
+    "id": "4f5efca3-d07e-477a-bf7d-bb9d922e1e0d",
+    "name": "qt1",
+    "commands": [{
+      "id": "89b3b819-1d6e-4653-b072-ea8b842c7b7a",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/#!/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "487f6d43-1e9e-4152-ac8d-eee0811498aa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1125x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00581669-14dc-4eb4-950a-11b887ab13f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(1) > td .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(1) > td .input-group-append > .btn", "css:finder"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4f118d9-f127-431e-a711-91c0af1eda46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(2) > td .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(2) > td .input-group-append > .btn", "css:finder"],
+        ["xpath=//tr[2]/td[3]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cbcb246-ebf0-4905-b489-4ab653c397e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(3) .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(3) .input-group-append > .btn", "css:finder"],
+        ["xpath=//tr[3]/td[3]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e043caf6-5319-4014-8e9a-6288e11b93e2",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=tr:nth-child(4) > .ng-binding",
+      "targets": [],
+      "value": "total"
+    }, {
+      "id": "4da370d0-3a76-4946-9a4d-8a4cf82a83a0",
+      "comment": "",
+      "command": "echo",
+      "target": "total=${tota}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6960816-9da9-4f0e-be28-c938b262868c",
+      "comment": "",
+      "command": "assert",
+      "target": "total",
+      "targets": [],
+      "value": "€6.25"
+    }]
+  }, {
+    "id": "0f1a41a8-625a-4c1e-b587-0c13fffe5384",
+    "name": "qt2",
+    "commands": [{
+      "id": "bbd27933-74b0-4c79-b1ca-99da7619d0f1",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/#!/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0ff76e5-8671-4df4-a57f-c90ccefd8020",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "773x712",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2d75e61-457f-431a-83be-32305d36723c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(1) > td .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(1) > td .input-group-append > .btn", "css:finder"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd12c2ea-48d8-467d-8455-c21f4fd11395",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=tr:nth-child(4) > .ng-binding",
+      "targets": [],
+      "value": "total"
+    }, {
+      "id": "2698e4ff-e50e-43b9-9915-12278302e87f",
+      "comment": "",
+      "command": "echo",
+      "target": "total= ${total}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce629055-f29d-4c64-a68f-c2e10a006ac6",
+      "comment": "",
+      "command": "assert",
+      "target": "total",
+      "targets": [],
+      "value": "€1.25"
+    }, {
+      "id": "53e62617-651f-46ea-a1bc-8aa16b5bebc7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(2) > td .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(2) > td .input-group-append > .btn", "css:finder"],
+        ["xpath=//tr[2]/td[3]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62483ceb-e1e4-4c54-b694-f954d2b018f0",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=tr:nth-child(4) > .ng-binding",
+      "targets": [],
+      "value": "total"
+    }, {
+      "id": "9706f803-ee8a-4f8b-bde5-2104c6fd0b3c",
+      "comment": "",
+      "command": "echo",
+      "target": "total = ${total}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5d344d7-59f8-403d-85c5-d6fea325b894",
+      "comment": "",
+      "command": "assert",
+      "target": "total",
+      "targets": [],
+      "value": "€3.25"
+    }, {
+      "id": "0667bf60-e278-4728-8efa-614cd2f1789a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(3) .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(3) .input-group-append > .btn", "css:finder"],
+        ["xpath=//tr[3]/td[3]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af600f17-d185-4359-b186-8e8e0c8476e5",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=tr:nth-child(4) > .ng-binding",
+      "targets": [],
+      "value": "total"
+    }, {
+      "id": "2c1d841b-163d-4205-bab6-458058b8827e",
+      "comment": "",
+      "command": "echo",
+      "target": "total = ${total}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7d1041b-dbb4-4c06-9a9b-03b10d384175",
+      "comment": "",
+      "command": "assert",
+      "target": "total",
+      "targets": [],
+      "value": "€6.25"
+    }]
+  }, {
+    "id": "7e070847-6899-40ab-87bb-b79e5f5308f5",
+    "name": "qt3",
+    "commands": [{
+      "id": "fa0beee4-502f-4298-8fe6-d422a8501e78",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/#!/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f720309-9a9b-4b22-834b-b75c89639632",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "773x712",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "872ab2e1-0331-4a89-bd3d-f6d1e43d939b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(1) > td .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(1) > td .input-group-append > .btn", "css:finder"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9b5c2e3-5a43-458e-9c9d-e58df8f97dee",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=tr:nth-child(4) > .ng-binding",
+      "targets": [],
+      "value": "total"
+    }, {
+      "id": "874a1d99-de9c-4484-a16d-3b75ac4bf75a",
+      "comment": "",
+      "command": "echo",
+      "target": "total= ${total}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08689515-cc1e-45ca-9fd3-a21fafa54f10",
+      "comment": "",
+      "command": "assert",
+      "target": "total",
+      "targets": [],
+      "value": "€1.25"
+    }, {
+      "id": "323f36ba-6db7-47bb-8279-e53426d4b7ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(2) > td .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(2) > td .input-group-append > .btn", "css:finder"],
+        ["xpath=//tr[2]/td[3]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eeeafd70-7c5c-405c-a699-dc8c911424e2",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=tr:nth-child(4) > .ng-binding",
+      "targets": [],
+      "value": "total"
+    }, {
+      "id": "927126ab-e502-42fe-a471-0e5805e4f39f",
+      "comment": "",
+      "command": "echo",
+      "target": "total = ${total}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13db899c-56ee-4af7-9e53-a9b4d21aa373",
+      "comment": "",
+      "command": "assert",
+      "target": "total",
+      "targets": [],
+      "value": "€3.25"
+    }, {
+      "id": "9140aa2c-dc99-4623-8bcd-c5257b3136fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(3) .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(3) .input-group-append > .btn", "css:finder"],
+        ["xpath=//tr[3]/td[3]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5f7e9ea-1beb-4da0-830d-3cdee765afb3",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=tr:nth-child(4) > .ng-binding",
+      "targets": [],
+      "value": "total"
+    }, {
+      "id": "82e37c69-e94b-4b6b-ae9a-a9de6190dab8",
+      "comment": "",
+      "command": "echo",
+      "target": "total = ${total}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "821bb51b-4ca7-49fe-be37-e6b422fb8e84",
+      "comment": "",
+      "command": "assert",
+      "target": "total",
+      "targets": [],
+      "value": "€6.25"
+    }, {
+      "id": "993dc8d2-9a48-4f20-8272-e673fee59a8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0db4de58-be64-4ae3-853d-57cd52e7f055",
+      "comment": "",
+      "command": "click",
+      "target": "id=ageInput",
+      "targets": [
+        ["id=ageInput", "id"],
+        ["css=#ageInput", "css:finder"],
+        ["xpath=//input[@id='ageInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f184cafd-aafc-4abd-a24c-71959c8024bf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:3000/#!/"],
+  "plugins": []
+}

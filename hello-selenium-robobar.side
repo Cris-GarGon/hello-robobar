@@ -1,0 +1,66 @@
+{
+  "id": "dbda86c1-4e26-4e77-a74c-c7bd0de71b26",
+  "version": "2.0",
+  "name": "hello-selenium-robobar",
+  "url": "http://localhost:3000/#!/",
+  "tests": [{
+    "id": "4f5efca3-d07e-477a-bf7d-bb9d922e1e0d",
+    "name": "robobar",
+    "commands": [{
+      "id": "89b3b819-1d6e-4653-b072-ea8b842c7b7a",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/#!/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "487f6d43-1e9e-4152-ac8d-eee0811498aa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1125x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00581669-14dc-4eb4-950a-11b887ab13f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(1) > td .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(1) > td .input-group-append > .btn", "css:finder"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4f118d9-f127-431e-a711-91c0af1eda46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(2) > td .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(2) > td .input-group-append > .btn", "css:finder"],
+        ["xpath=//tr[2]/td[3]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cbcb246-ebf0-4905-b489-4ab653c397e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(3) .input-group-append > .btn",
+      "targets": [
+        ["css=.ng-scope:nth-child(3) .input-group-append > .btn", "css:finder"],
+        ["xpath=//tr[3]/td[3]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f184cafd-aafc-4abd-a24c-71959c8024bf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:3000/#!/"],
+  "plugins": []
+}
